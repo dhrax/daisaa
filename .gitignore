@@ -46,7 +46,7 @@ Thumbs.db
 
 #firebase
 firebase/
-/.firebase
+.firebase/
 
 #build
 /docs
