@@ -21,7 +21,7 @@
             </svg>
         </a>
 
-        <a aria-label="David on Linkedin" target="_blank" rel="noopener" href="https://www.linkedin.com/in/david-fernández-liras/" title="YouTube" data-name="Logo">
+        <a aria-label="David on Linkedin" target="_blank" rel="noopener" href="https://www.linkedin.com/in/david-fernández-liras/" title="LinkedIn" data-name="Logo">
             <svg id="linkedin-logo" xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 64 64" fill="#ffffff" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round">
                 <desc>A solid styled icon from Orion Icon Library.</desc>
                 <path data-name="layer1" d="M3.078 22.331h12.188v36.844H3.078z"/>
@@ -36,8 +36,18 @@
 
 <div class="content" role="main">
 
-    <h2> About me</h2>
+    <h1> About me</h1>
 
+    <p>
+        I was born in Madrid in 1999. I have been working in the software development field for about 3 years now. I started working as a ProC/C++ developer and now I am currently working mostly with C# creating both web applications and webservices.</p>
+    <p>I am a very passionate developer and that led me to work with two different teams making videogames both in Unity and unreal Engine 4, as I wanted to do more than just developing I also took responsabilities managing one of these teams and it has
+        been a great experience from which I have learned (and keep learning) a lot.
+    </p>
+    <p>
+        One of my dreams is to become a great android developer so I started creating appliations which filled my needs. The application I am most proud of is a QR code reader which I first created in Java and now I am improving it in Kotlin with the latest CameraX
+        API and Google´s machine learning models.
+    </p>
+    <!--FIXME images may take a long time to load-->
     <!--GitHub stats-->
     <!--
     <img src="https://github-readme-stats.vercel.app/api?username=dhrax&show_icons=true&count_private=true&theme=radical" />
@@ -52,18 +62,22 @@
     -->
 
     <!-- Resources -->
-    <h1>Projects</h1>
 
-    <h2>Applications</h2>
+    <h1>Applications</h1>
 
     <div class="card-container">
         <a class="card" target="_blank" rel="noopener" href="https://github.com/DaisaInc/QReader">
             <span>QReader</span>
             <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
         </a>
+
+        <a class="card" target="_blank" rel="noopener" href="https://github.com/dhrax/KReader">
+            <span>KReader</span>
+            <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+        </a>
     </div>
 
-    <h2>Games</h2>
+    <h1>Games</h1>
 
     <div class="card-container">
         <a class="card" href="https://github.com/dhrax/TFG">
@@ -72,7 +86,7 @@
         </a>
 
         <a id="pong" role="button" class="card" (click)="updateDemoFrame('https://dhrax.github.io/ClassicPong/')">
-            <span>Classic Pong (WIP)</span>
+            <span>Classic Pong Alpha</span>
             <svg class="material-icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
         </a>
 
@@ -82,7 +96,7 @@
         </a>
     </div>
 
-    <iframe id="demoFrame" title="Frame" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe id="demoFrame" title="Frame" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
 
     <!-- Links -->
     <div class="card-container">
