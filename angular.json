@@ -26,9 +26,14 @@
                             "src/assets"
                         ],
                         "styles": [
-                            "src/styles.css"
+                            "src/styles.css",
+                            "src/assets/demos/minichess/TemplateData/style.css",
+                            "src/assets/demos/boi/TemplateData/style.css"
                         ],
-                        "scripts": []
+                        "scripts": [
+                            "src/assets/demos/minichess/Build/web.loader.js",
+                            "src/assets/demos/boi/Build/web.loader.js"
+                        ]
                     },
                     "configurations": {
                         "production": {
