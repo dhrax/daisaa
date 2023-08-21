@@ -111,5 +111,8 @@
             }
         }
     },
-    "defaultProject": "daisa-website"
+    "defaultProject": "daisa-website",
+    "cli": {
+      "analytics": false
+    }
 }
