@@ -44,8 +44,8 @@
                                 },
                                 {
                                     "type": "anyComponentStyle",
-                                    "maximumWarning": "2kb",
-                                    "maximumError": "4kb"
+                                    "maximumWarning": "2mb",
+                                    "maximumError": "4mb"
                                 }
                             ],
                             "fileReplacements": [{
@@ -98,6 +98,9 @@
                         ],
                         "scripts": []
                     }
+                },
+                "deploy": {
+                  "builder": "angular-cli-ghpages:deploy"
                 }
             },
             "i18n": {
@@ -111,7 +114,6 @@
             }
         }
     },
-    "defaultProject": "daisa-website",
     "cli": {
       "analytics": false
     }
