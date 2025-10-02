@@ -49,7 +49,7 @@ firebase/
 .firebase/
 
 #build
-/docs
+#/docs
 
 .DS_STORE
 
