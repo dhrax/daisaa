@@ -22,6 +22,7 @@
                         "main": "src/main.ts",
                         "polyfills": "src/polyfills.ts",
                         "tsConfig": "tsconfig.app.json",
+                        "baseHref": "/daisaa/",
                         "assets": [
                             "src/assets"
                         ],
@@ -107,8 +108,7 @@
                 "sourceLocale": "en-US",
                 "locales": {
                     "es": {
-                        "translation": "src/locale/messages.es.xlf",
-                        "baseHref": ""
+                        "translation": "src/locale/messages.es.xlf"
                     }
                 }
             }
